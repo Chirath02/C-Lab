@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Stringrev {
+class tollBooth {
 private:
 	unsigned int car_total;
 	double cash_total;

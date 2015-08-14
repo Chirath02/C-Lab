@@ -1,5 +1,5 @@
 #include<iostream>
-//#include<conio>
+#include<stdlib.h>
 using namespace std;
 class phone {
 private:
@@ -32,7 +32,7 @@ public:
 
 int main() {
 	phone  p1 (91, 124, 2304871), p2;
-	//clrscr();
+	system("clear");
 	p2.input();
 	cout<<"\nMy number is = ";
 	p1.disp();

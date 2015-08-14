@@ -1,5 +1,5 @@
 #include<iostream>
-//#include<conio>
+#include<stdlib.h>
 using namespace std;
 class EMPLOYEE {
 private:
@@ -34,7 +34,7 @@ int main() {
 	char ch;
 	int i=0;
 	do {
-		//clrscr();
+		system("clear");
 		N[i].readData();
 		N[i].calculate();
 		N[i].print();

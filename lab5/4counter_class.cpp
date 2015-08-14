@@ -1,5 +1,4 @@
 #include<iostream>
-//#include<conio>
 using namespace std;
 class counter1 {
 private:

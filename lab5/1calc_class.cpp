@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio>
+#include<stdlib.h>
 using namespace std;
 class bank {
 private:
@@ -54,7 +54,7 @@ int main() {
 	bank c;
 	char ch;
 	do {
-		clrscr();
+		system("clear");
 		c.input();
 		c.eval();
 		cout<<"\nDo you want to calculate again?(y/n) :";
